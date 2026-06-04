@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Driventa LLC | Sacramento Rental Cars</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #111;
+    }
+
+    header {
+      background: #000;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    nav {
+      background: #111;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #000, #333);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      background: #ffcc00;
+      color: #000;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    section {
+      padding: 45px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 32px;
+    }
+
+    .fleet {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .car-card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .car-card h3 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .info-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Driventa LLC</h1>
+    <p>Sacramento Rental Cars | SMF Airport Delivery</p>
+  </header>
+
+  <nav>
+    <a href="#fleet">Fleet</a>
+    <a href="#airport">Airport Delivery</a>
+    <a href="#contact">Contact</a>
+    <a href="#terms">Terms</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Reliable Rental Cars in Sacramento</h1>
+    <p>Clean, dependable vehicles with convenient SMF Airport pickup and drop-off.</p>
+    <a class="button" href="#contact">Book Now</a>
+  </div>
+
+  <section id="fleet">
+    <h2>Our Fleet</h2>
+    <div class="fleet">
+      <div class="car-card">
+        <h3>Toyota Camry SE</h3>
+        <p>Comfortable, reliable, fuel-efficient sedan.</p>
+      </div>
+
+      <div class="car-card">
+        <h3>Kia K5</h3>
+        <p>Stylish midsize sedan with a smooth ride.</p>
+      </div>
+
+      <div class="car-card">
+        <h3>Chevy Trax</h3>
+        <p>Compact SUV with great space and easy driving.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="airport">
+    <h2>SMF Airport Delivery</h2>
+    <div class="info-box">
+      <p>
+        Driventa LLC offers convenient rental car pickup and drop-off at
+        Sacramento International Airport.
+      </p>
+      <p>
+        We focus on clean vehicles, reliable service, and simple communication
+        from booking to return.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="info-box">
+      <p><strong>Phone:</strong> (916) 747-0446</p>
+      <p><strong>Service Area:</strong> Sacramento, CA</p>
+      <p><strong>Airport:</strong> Sacramento International Airport</p>
+      <br>
+      <a class="button" href="tel:9167470446">Call Now</a>
+    </div>
+  </section>
+
+  <section id="terms">
+    <h2>Rental Terms</h2>
+    <div class="info-box">
+      <p>Vehicles must be returned clean, on time, and with the proper fuel level.</p>
+      <p>No smoking. No unauthorized drivers. Guests are responsible for tolls, tickets, damage, and policy violations.</p>
+      <p>Full terms and conditions will be provided before rental.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Driventa LLC. All rights reserved.</p>
+    <p>10265 Rockingham Dr. Ste 100, Sacramento, CA 95827</p>
+  </footer>
+
+</body>
+</html>
